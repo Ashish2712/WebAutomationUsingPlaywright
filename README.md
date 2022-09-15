@@ -10,7 +10,7 @@ What we will cover in this project
 5. checkout
 
 Prerequistes for this project
-1. node.js
+1. Node.js
 2. IDE(vscode) or any other IDE.
 3. npm package manager
 
