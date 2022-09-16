@@ -4,7 +4,7 @@
   "description": "In this project we are going to learn how playwright works.",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "jest"
   },
   "repository": {
     "type": "git",
@@ -19,5 +19,8 @@
   "homepage": "https://github.com/Ashish2712/WebAutomationUsingPlaywright#readme",
   "devDependencies": {
     "playwright": "^1.25.2"
+  },
+  "dependencies": {
+    "jest": "^29.0.3"
   }
 }
