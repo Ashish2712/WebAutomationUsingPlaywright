@@ -6,7 +6,7 @@ class LoginPage extends BasePage {
 
         // locators
         this.userNameTxt = '#email';
-        this.passwordTxt = '#password';
+        this.passwordTxt = '#passwd';
         this.submitBtn = '#SubmitLogin'
 
     }
@@ -16,8 +16,8 @@ class LoginPage extends BasePage {
     }
 
     async login(usermame, password){
-        await this.page.fill(this.userNameTxt);
-        await this.page.fill(this.passwordTxt);
+        await this.page.fill(this.userNameTxt, usermame);
+        await this.page.fill(this.passwordTxt, password);
         await this.page.click(this.submitBtn);
     }
 }
